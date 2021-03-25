@@ -12,7 +12,7 @@ import Header from '../Header/Header';
 class App extends Component{
     onEdit=(book)=>{
         this.setState({
-           selectedBook: book
+           selectedBook: book 
         })
     } 
     
